@@ -1,0 +1,34 @@
+Problem:2 toonii ihiig olj, hevlene uu
+
+Code:
+1. c, d huvisagchdiig zarlana
+2.c huvisagch n 2, d huvisagch n 1
+3.c huvisagchiig d huvisagchtai haritsuulna
+4.c huvisagch n ih bol c-d ih temdeg tavina
+5.d huvisagch n ih bol d-d ih temdeg tavina
+6.c huvisagch n d huvisagchaas ih uchir ih temdeg tavina
+
+ 
+code:
+1. c, d huvisagchdiig zarlana
+2. c huvisagch n 2, d huvisagch n 1
+3. c huvisagchiig d huvisagchtai haritsuulna
+4. c huvisagch n ih bol c-g hevlene
+5. d huvisagch n ih bol d-g hevlene
+6. c huvisagch n d huvisagchaas ih uchir c-g hevlene
+
+code:
+1. q,w,e,r 4 huvisagchiig zarlana
+2.q n 1 gesen utgatai, w n 2 gesen utgatai, e n 3 gesen utgatai, r n 4 gesen utgatai
+3. huvisagchdiig 2,2oor n  haritsuulna
+4. uldsen 2 iig dahin haritsuulna
+5. hamgiin ih utgataig hevlene
+6. q-g r huvisagchtai haritsuulna
+7. r n q huvisagchaas ih utgatai  
+8. w-g e huvisagchtai haritsuulna
+9. e n w huvisagchaas ih utgatai 
+10. r bolon e huvisagchiig hoorond n haritsuulna
+11.r n e-s ih utgatai 
+12. r-g hevlene
+ 
+ 

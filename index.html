@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<script>
+    // Given year
+    const givenYear = 2025;
+
+    // Check if it's a leap year
+    const isLeapYear = ((givenYear % 4 === 0 && givenYear % 100 !== 0) || givenYear % 400 === 0);
+
+    // Create a table for the calendar
+    const table = document.createElement('table');
+    const headerRow = table.insertRow();
+    const monthHeaders = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    
+    monthHeaders.forEach(month => {
+        const th = document.createElement('th');
+        th.textContent = month;
+        headerRow.appendChild(th);
+    });
+
+    // Display the number of days in each month
+    const daysInMonth = [];
+    for (let i = 0; i < 12; i++) {
+        let days;
+        if (i === 1) {
+            // February
+            days = isLeapYear ? 29 : 28;
+        } else if ([0, 2, 4, 6, 7, 9, 11].includes(i)) {
+            // Months with 31 days
+            days = 31;
+        } else {
+            // Months with 30 days
+            days = 30;
+        }
+        daysInMonth.push(days);
+    }
+
+    const daysRow = table.insertRow();
+    daysInMonth.forEach(days => {
+        const td = document.createElement('td');
+        td.textContent = days;
+        daysRow.appendChild(td);
+    });
+
+    document.body.appendChild(table);
+
+    // Display whether the given year is a leap year or a common year
+    console.log(`${givenYear} is a ${isLeapYear ? "leap" : "common"} year`);
+</script>
+
+</body>
+</html>
+
+
+
+
